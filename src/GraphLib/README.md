@@ -19,7 +19,7 @@ Le sottoclassi DirectedEdge e UnDirectedEdge descrivono finalmente la distizione
 Questa distinzione (insieme al metodo hasDirection) permette all'utente di essere sicuro di quale arco vuole inserire in un grafo.
 
 ## EdgeFactory
-Questa classe vuole implementare il design pattern : FactoryPattern in cui si affida a un oggetto istanziare delle famiglie di oggetti che hanno senso di stare insieme logicamente ma non mischiate. Per esempio :un directed può stare solo con la sua versione pesata.
+Questa classe vuole implementare il design pattern : FactoryPattern in cui si affida a un oggetto di istanziare delle famiglie di oggetti che hanno senso di stare insieme logicamente ma non mischiate. Per esempio :un directed può stare solo con la sua versione pesata.
                         e così anche con l'UnDirected e la sua versione pesata.
 
 Un Directed e UnDirected insieme ,in questa implmentazione della libreria, ritengo che senza senso anche se esistono grafi che contengono archi orientati.
