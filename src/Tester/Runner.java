@@ -1,5 +1,7 @@
+package Tester;
 
-import java.util.List;
+import GraphLib.Node;
+import GraphLib.*;
 
 public class Runner {
     public static void main(String[] args) {
@@ -12,13 +14,11 @@ public class Runner {
          Edge e = ef.createEdge(x, y);
          Edge e2 = ef.createEdge(y, x);
 
+
          System.out.println(e.HasDirection());
          System.out.println(e.equals(e2));
 
-         ef = new DirectedEdgeFactory();
-
-         e = ef.createEdge(x, y);
-         e2 = ef.createEdge(y, x);
+         ef = new GraphLib.DirectedEdgeFactory();
 
          System.out.println(e.HasDirection());
          System.out.println(e.equals(e2));
